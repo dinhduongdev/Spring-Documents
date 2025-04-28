@@ -3,9 +3,8 @@
 ## 1. Giải thích sơ đồ luồng xử lý trong Spring MVC
 
 Sơ đồ sau mô tả luồng xử lý một HTTP Request trong Spring MVC:
-
+<img  src='./image/image.png'>
 ### Sơ đồ:
-- **Tiêu đề**: "DispatcherServlet xử lý các HTTP Request và Response, nó quyết định chương trình nào của controller sẽ được thực thi khi nhận Request."
 - **Cấu trúc**:
   - **HTTP Request/Response**: Đầu vào và đầu ra của hệ thống.
   - **Filter**: Bộ lọc trước khi request đến DispatcherServlet.
